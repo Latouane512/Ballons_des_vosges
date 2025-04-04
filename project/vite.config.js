@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  server: {
-    open: true
-  }
+  base: "/Ballons_des_vosges/",
+  plugins: [react()],
 });
